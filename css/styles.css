@@ -12,6 +12,8 @@ body {
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #4d5ae5;
+     padding-top: 24px;
+     padding-bottom: 24px;
 }
 
 .header-logo-italik {
@@ -22,6 +24,8 @@ body {
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #2e2f42;
+     padding-top: 24px;
+     padding-bottom: 24px;
 }
 
 .header-menu-link:hover, .header-menu-link:focus {
@@ -34,6 +38,8 @@ body {
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #2e2f42;
+     padding-top: 24px;
+     padding-bottom: 24px;
 
 }
 
@@ -52,12 +58,19 @@ body {
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #434455;
+     padding-top: 24px;
+     padding-bottom: 24px;
 }
 
 .hero {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .hero-title {
+     max-width: 496px;
+     margin: 0 auto;
+     margin-bottom: 48px;
      text-align: center;
      font-weight: 700;
      font-size: 56px;
@@ -75,10 +88,17 @@ body {
       line-height: 1.5;
       letter-spacing: 0.04em;
       color: #fff;
+      display: block;
+      margin: 0 auto;
 }
 
 .hero-btn:hover, .hero-btn:focus {
      background-color: #404BBF;
+}
+
+.guality {
+     padding-top: 120px;
+     padding-bottom: 120px;
 }
 
 .quality-title-white {
@@ -103,9 +123,12 @@ body {
 
 .team {
     background-color: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
+     margin-bottom: 72px;
      text-transform: capitalize;
      text-align: center;
      font-weight: 700;
@@ -113,7 +136,7 @@ body {
      line-height: 1.11;
      letter-spacing: 0.02em;
      color: #2e2f42;
-     background-color: #FFFFFF;
+     background-color: #f4f4fdF;
 }
 
 .team-iteam-title {
@@ -137,7 +160,13 @@ body {
      background-color: #FFFFFF;
 }
 
+.portfolio {
+     padding-top: 120px;
+     padding-bottom: 120px;
+}
+
 .portfolio-title {
+     margin-bottom: 72px;
      text-transform: capitalize;
      text-align: center;
      font-weight: 700;
@@ -165,6 +194,8 @@ body {
 
 .footer {
     background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -197,12 +228,28 @@ body {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+p,h1,h2,h3,h4,h5,h6 {
+     margin: 0;
+}
 
+img {
+     display: block;
+}
+
+.container {
+     width: 1158px;
+     padding-left: 15px;
+     padding-right: 15px;
+     margin: 0 auto;
+
+}
 
 
