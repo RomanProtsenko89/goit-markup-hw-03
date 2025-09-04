@@ -4,6 +4,12 @@ body {
     background-color: #FFFFFF;
 }
 
+.header-navigation {
+     display: flex;
+     align-items: center;
+     
+}
+
 .header-logo {
      font-family: "Raleway", sans-serif;
      font-weight: 700;
@@ -14,6 +20,7 @@ body {
      color: #4d5ae5;
      padding-top: 24px;
      padding-bottom: 24px;
+     margin-right: 76px;
 }
 
 .header-logo-italik {
@@ -32,6 +39,11 @@ body {
      color: #404bbf;
 }
 
+.header-menu-list {
+     display: flex;
+     gap: 40px;
+}
+
 .header-menu-link {
      font-weight: 500;
      font-size: 16px;
@@ -40,16 +52,26 @@ body {
      color: #2e2f42;
      padding-top: 24px;
      padding-bottom: 24px;
-
+     
+     
 }
 
 .header-address{
      font-style: normal;
+     margin-left: auto;
+     
 
 }
 
 .header-address-link:hover, .header-address-link:focus {
      color: #404bbf;
+}
+
+.header-address-navigation{
+     display: flex;
+     gap: 40px;
+     
+     
 }
 
 .header-address-link {
@@ -60,6 +82,13 @@ body {
      color: #434455;
      padding-top: 24px;
      padding-bottom: 24px;
+     
+   
+}
+
+.header-container {
+     display: flex;
+     align-items: center;
 }
 
 .hero {
@@ -90,6 +119,10 @@ body {
       color: #fff;
       display: block;
       margin: 0 auto;
+      min-width: 169px;
+      height: 56px;
+      border-radius: 4px;
+      border: 0;
 }
 
 .hero-btn:hover, .hero-btn:focus {
@@ -97,12 +130,28 @@ body {
 }
 
 .guality {
-     padding-top: 120px;
-     padding-bottom: 120px;
 }
 
-.quality-title-white {
-    color: #fff;
+.visually-hidden {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
+}
+
+.quality-list {
+     display: flex;
+     gap: 24px;
+}
+
+.quality-list-item {
+     width: calc((100% - 72px ) / 4);
 }
 
 .quality-list-title {
@@ -111,6 +160,7 @@ body {
  line-height: 1.2;
  letter-spacing: 0.02em;
  color: #2e2f42;
+ padding-bottom: 8px;
 }
 
 .quality-list-text {
@@ -123,8 +173,7 @@ body {
 
 .team {
     background-color: #f4f4fd;
-    padding-top: 120px;
-    padding-bottom: 120px;
+;
 }
 
 .team-title {
@@ -139,12 +188,24 @@ body {
      background-color: #f4f4fdF;
 }
 
+.team-list {
+     display: flex;
+     gap: 24px;
+}
+
 .team-iteam-title {
      font-weight: 500;
      font-size: 20px;
      line-height: 1.2;
      letter-spacing: 0.02em;
      color: #2e2f42;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 8px;
+     margin-bottom: 8px;
+     
 }
 
 .team-iteam-text {
@@ -153,17 +214,26 @@ body {
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #434455;
+     text-align: center;
 
 }
 
 .team-list-iteam {
      background-color: #FFFFFF;
+     border-radius: 0 0 4px 4px;
+     padding: 0px 0px 32px;
+     width: 264px;
+     height: 380px;
+     width: calc((100% - 24px) / 4);
+
 }
 
-.portfolio {
-     padding-top: 120px;
-     padding-bottom: 120px;
+.team-list-img {
+     margin-bottom: 32px;
+     
 }
+
+.portfolio {}
 
 .portfolio-title {
      margin-bottom: 72px;
@@ -176,12 +246,31 @@ body {
      color: #2e2f42;
 }
 
+.portfolio-list {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 24px;
+    
+}
+
+.portfolio-list-iteam {
+     width: 360px;
+     height: 420px;
+     
+     
+}
+
 .portfolio-iteam-title {
      font-weight: 500;
      font-size: 20px;
      line-height: 1.2;
      letter-spacing: 0.02em;
      color: #2e2f42;
+     margin-top: 32px;
+     margin-left: 16px;
+     margin-bottom: 8px;
+     
+     
 }
 
 .portfolio-iteam-text {
@@ -190,6 +279,10 @@ body {
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #434455;
+     margin-bottom: 32px;
+     margin-left: 16px;
+     
+    
 }
 
 .footer {
@@ -206,6 +299,12 @@ body {
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #4d5ae5;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     flex-direction: row;
+     gap: 0px;
+     margin-bottom: 16px;
 }
 
 .footer-logo-italik {
@@ -219,6 +318,7 @@ body {
 }
 
 .footer-text {
+     max-width: 264px;
      font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
@@ -252,4 +352,7 @@ img {
 
 }
 
-
+.section {
+     padding-top: 120px;
+     padding-bottom: 120px;
+}
