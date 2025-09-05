@@ -35,8 +35,7 @@ body {
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #2e2f42;
-     padding-top: 24px;
-     padding-bottom: 24px;
+     
 }
 
 .header-menu-link:hover, .header-menu-link:focus {
